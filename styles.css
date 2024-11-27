@@ -7,7 +7,7 @@
 
 /* Estilos globales */
 body {
-  background: linear-gradient(to bottom right, #1e3c72, #2a2a2a, #000000); /* Degradado azul, gris y negro */
+  background: linear-gradient(to bottom right, #b42e05, #2a2a2a, #000000); /* Degradado azul, gris y negro */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -85,7 +85,7 @@ textarea {
 input:focus,
 select:focus,
 textarea:focus {
-  border-color: #2196f3;
+  border-color: #851506;
   outline: none;
   box-shadow: 0 0 6px rgba(33, 150, 243, 0.4);
 }
@@ -99,7 +99,7 @@ input[type="checkbox"] {
 
 /* Botón de envío */
 input[type="submit"] {
-  background-color: #2196f3;
+  background-color: #2088dd;
   color: white;
   padding: 0.6rem; /* Reducido padding */
   border: none;
