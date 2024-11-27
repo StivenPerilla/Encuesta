@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Estilos globales */
+body {
+  background: linear-gradient(to bottom right, #1e3c72, #2a2a2a, #000000); /* Degradado azul, gris y negro */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 20px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* Contenedor del formulario */
+.container {
+  background-color: #ffffff;
+  padding: 1rem; /* Reducido padding */
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  max-width: 320px; /* Reducido el ancho máximo */
+  width: 100%;
+}
+
+/* Título */
+h1 {
+  color: #333;
+  text-align: center;
+  font-size: 1.4rem; /* Reducido el tamaño del texto */
+  font-weight: bold;
+  margin-bottom: 0.8rem; /* Reducido el margen inferior */
+}
+
+/* Descripción */
+#description {
+  text-align: center;
+  color: #666;
+  font-size: 0.8rem; /* Reducido el tamaño del texto */
+  margin-bottom: 1rem; /* Reducido el margen inferior */
+}
+
+/* Estilos del formulario */
+.form-group {
+  margin-bottom: 0.8rem; /* Reducido el margen */
+}
+
+label {
+  font-size: 0.8rem; /* Reducido el tamaño del texto */
+  color: #333;
+  display: block;
+  margin-bottom: 0.2rem; /* Reducido el margen inferior */
+}
+
+/* Inputs, select y textarea */
+input, select, textarea {
+  width: 100%;
+  padding: 0.6rem; /* Reducido padding */
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 0.8rem; /* Reducido el tamaño del texto */
+  background-color: #f9f9f9;
+  transition: all 0.2s ease;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  width: auto;
+  margin-right: 0.5rem; /* Reducido margen derecho */
+  margin-bottom: 6px; /* Reducido margen inferior */
+}
+
+select {
+  background-color: #ffffff;
+}
+
+textarea {
+  resize: none;
+  min-height: 60px; /* Reducido el tamaño mínimo */
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+  border-color: #2196f3;
+  outline: none;
+  box-shadow: 0 0 6px rgba(33, 150, 243, 0.4);
+}
+
+/* Estilos para los botones de opción */
+input[type="radio"],
+input[type="checkbox"] {
+  margin-right: 6px;
+  margin-bottom: 8px; /* Reducido margen inferior */
+}
+
+/* Botón de envío */
+input[type="submit"] {
+  background-color: #2196f3;
+  color: white;
+  padding: 0.6rem; /* Reducido padding */
+  border: none;
+  border-radius: 6px;
+  font-size: 0.9rem; /* Reducido el tamaño del texto */
+  cursor: pointer;
+  width: 100%;
+  margin-top: 1rem;
+  transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+input[type="submit"]:hover {
+  background-color: #1976d2;
+  transform: translateY(-2px);
+}
+
+/* Estilo para los mensajes de error */
+input:invalid {
+  border-color: #f44336;
+}
+
+input:invalid:focus {
+  outline: 2px solid #f44336;
+}
